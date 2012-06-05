@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GratisInc.Tools.FogBugz.WorkingOn", "GratisInc.Tools.FogBugz.WorkingOn.csproj", "{81DCAA9A-94B9-4579-A6B4-403F0071AB61}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{75D8BFC1-6D91-4575-B9C7-218DF1851900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DCAA9A-94B9-4579-A6B4-403F0071AB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DCAA9A-94B9-4579-A6B4-403F0071AB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DCAA9A-94B9-4579-A6B4-403F0071AB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DCAA9A-94B9-4579-A6B4-403F0071AB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D8BFC1-6D91-4575-B9C7-218DF1851900}.Debug|Any CPU.ActiveCfg = Debug
+		{75D8BFC1-6D91-4575-B9C7-218DF1851900}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
