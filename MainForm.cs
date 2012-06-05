@@ -851,17 +851,17 @@ namespace GratisInc.Tools.FogBugz.WorkingOn
             if (workingCase == null && IsLoggedIn)
             {
                tray.ShowBalloonTip(0, "No Active Case.", "why you no work?", ToolTipIcon.Warning);
-               timer.Interval = 1000; // *60 * 15;
+               timer.Interval = 1000 * 60 * 15;
             }
             else if (IsLoggedIn)
             {
                tray.ShowBalloonTip(0, "Reminder: Working On " + workingCase.Id, workingCase.Title, ToolTipIcon.Warning);
-               timer.Interval = 3000; // *60 * 60;
+               timer.Interval = 3000 * 60 * 60;
             }
             else
             {
                tray.ShowBalloonTip(0, "Not Logged In", "you no loggy in", ToolTipIcon.Warning);
-               timer.Interval = 1000; // *60 * 15;
+               timer.Interval = 1000 * 60 * 15;
             }
 
          };
